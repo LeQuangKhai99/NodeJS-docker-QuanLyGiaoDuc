@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-docker-quanlygiaoduc",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "express": "~4.16.1",
+    "mongoose": "^5.13.2",
+    "nodemon": "^2.0.12"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeQuangKhai99/NodeJS-docker-QuanLyGiaoDuc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeQuangKhai99/NodeJS-docker-QuanLyGiaoDuc/issues"
+  },
+  "homepage": "https://github.com/LeQuangKhai99/NodeJS-docker-QuanLyGiaoDuc#readme",
+  "description": ""
+}

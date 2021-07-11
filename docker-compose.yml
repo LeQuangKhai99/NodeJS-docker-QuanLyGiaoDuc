@@ -1,0 +1,22 @@
+version: '3'
+services:
+  web:
+    container_name: node_app
+    build:
+      context: ./
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "3008:3000"
+    links: 
+      - mongo
+    restart: always
+    environment:
+      NODE_ENV: development
+      DEBUG: nodejs-docker-express:*
+    command: npm run start
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports: 
+      - '27017:27017'
